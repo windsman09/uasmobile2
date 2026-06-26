@@ -12,7 +12,12 @@
           "package_name": "com.example.uasmobile2"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "442237028978-ngq3shqvpdul78ht6jr1v7qin43rt36m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBvFDOTwiCEE_cb5Nm6zew306r4IACxFYo"
@@ -20,7 +25,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442237028978-ngq3shqvpdul78ht6jr1v7qin43rt36m.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "442237028978-gm6d1lqkq9a14tovhq65fk5qcmiidn6b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.uasmobile2"
+              }
+            }
+          ]
         }
       }
     }
