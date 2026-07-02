@@ -1,5 +1,9 @@
 # uasmobile2
 
+
+#Nama : Istianto
+#NIM  : 2303020038
+#Peodi: RPL
 A new Flutter project.
 
 ## Getting Started
