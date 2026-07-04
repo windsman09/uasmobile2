@@ -23,12 +23,13 @@ class MyApp extends StatelessWidget {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider<AuthProvider>(create: (_) => AuthProvider()),
+
+        ChangeNotifierProvider<TaskProvider>(create: (_) => TaskProvider()),
       ],
+
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-
         theme: ThemeData(useMaterial3: true, colorSchemeSeed: Colors.indigo),
-
         home: const LoginScreen(),
       ),
     );
